@@ -126,5 +126,22 @@ height: 598px;
 /* Intro style and */
 
 
+/* Services styles */
 
+.services__title{
+margin-top: 149px;
+text-align: center;
+}
+.services{
+
+}
+.services__wrap{
+  max-width: 952px;
+  height: 177px;
+  top: 967px;
+  margin: 0 auto;
+  
+.services__cards{
+  height: 30vh;
+}
 

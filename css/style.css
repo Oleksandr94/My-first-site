@@ -115,8 +115,7 @@ border: 0;
 border-radius: 55px;
 font-weight: bold;
 }
-.search-form__submit:hover, .search-form__submit:focus, .search-form__submit:active{
-
+.search-form__submit:hover, .search-form__submit:focus, .search-form__submit:active {
 }
 .intro__photo{
 width: 693px;
@@ -128,19 +127,31 @@ height: 598px;
 
 /* Services styles */
 
-.services__title{
+.services__our{
 margin-top: 149px;
 text-align: center;
 }
+.services__title{
+margin-left: 321px;
+margin-right: 327px;
+}
 .services{
-
+width: 1120px;
+height: 1131px;
+margin-top: 149px;
+}
+.line{
+background-color: #000000;
+height: 5px;
+border-radius: 5px;
+width: 56px;
 }
 .services__wrap{
-  max-width: 952px;
-  height: 177px;
-  top: 967px;
-  margin: 0 auto;
-  
+max-width: 952px;
+height: 177px;
+top: 967px;
+margin: 0 auto;
+}
 .services__cards{
   height: 30vh;
 }

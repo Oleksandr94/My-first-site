@@ -29,6 +29,10 @@
         line-height: 1.2;
         font-weight: normal
   }
+  .img{
+  max-width: 100%;
+  height: auto;
+  }
   .wrapper{
       max-width: 1247px;
       margin: 0 auto;
@@ -128,17 +132,18 @@ height: 598px;
 /* Services styles */
 
 .services__our{
-margin-top: 149px;
-text-align: center;
+font-weight: bold;
+font-size: 36px;
+line-height: 56px;
+padding: 149px 100px 26px 480px;
 }
 .services__title{
-margin-left: 321px;
-margin-right: 327px;
+font-weight: 300;
+font-size: 18px;
+line-height: 30px;
 }
 .services{
-width: 1120px;
-height: 1131px;
-margin-top: 149px;
+
 }
 .line{
 background-color: #000000;
@@ -147,12 +152,41 @@ border-radius: 5px;
 width: 56px;
 }
 .services__wrap{
-max-width: 952px;
-height: 177px;
-top: 967px;
+max-width: 1120px;
+background-color: white;
 margin: 0 auto;
 }
 .services__cards{
-  height: 30vh;
+display: grid;
+grid-template-columns: repeat(3, 1fr );
+grid-column-gap: 35px;
+padding: 0;
+box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+border-radius: 20px;
+width: 350px;
+height: 354px;
 }
-
+.services__cards{
+grid-column: span 1;
+}
+.services__cards-pic{
+  width: 80px;
+  height: 71.15px;
+  left: 662px;
+  top: 1674px;
+}
+.services__cards-thumb{
+display: block;
+}
+.services__cards-title{
+font-weight: bold;
+font-size: 24px;
+line-height: 56px;
+margin-bottom: 0.8px;
+}
+.services__cards-desc{
+ont-weight: 300;
+font-size: 16px;
+line-height: 28px;
+color: #7D7987;
+}

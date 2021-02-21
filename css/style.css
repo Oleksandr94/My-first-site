@@ -122,8 +122,9 @@ body {
   font-weight: bold;
 }
 .search-form__submit:hover,
-.search-form__submit:focus,
+.search-form__submit:focus
 .search-form__submit:active {
+  cursor: pointer;
 }
 .intro__photo {
   width: 693px;
@@ -138,6 +139,7 @@ body {
   font-size: 36px;
   line-height: 56px;
   padding: 149px 100px 26px 480px;
+  margin: 0;
 }
 .services__title {
   font-weight: 300;
@@ -148,7 +150,6 @@ body {
 }
 .line {
   background: #000000;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 5px;
   width: 56px;
   height: 2px;
@@ -199,16 +200,17 @@ body {
   color: #7d7987;
 }
 
+.search-button__more {
+margin-top: 69px;
+}
+
 .search-form__learnmore {
   width: 200px;
-  height: 60px;
   border-radius: 55px;
-  font-weight: bold;
   font-size: 18px;
   line-height: 60px;
   color: #458ff6;
   border: 1.4px solid;
   background: white;
-}
-.search-button__more {
+  cursor: pointer;
 }

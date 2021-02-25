@@ -199,7 +199,7 @@ body {
 
 .search-button__more {
   margin-top: 69px;
-  padding-left: 420px;
+  padding-left: 460px;
 }
 
 .search-form__learnmore {
@@ -213,6 +213,11 @@ body {
   cursor: pointer;
 }
 
-.leading__healthcare{
+.leading__healthcare {
   margin-top: 220px;
+}
+
+.Leading__healthcarer {
+  font-size: 36px;
+  line-height: 56px;
 }

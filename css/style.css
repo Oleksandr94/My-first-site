@@ -220,4 +220,5 @@ body {
 .Leading__healthcarer {
   font-size: 36px;
   line-height: 56px;
+  max-width: 481px;
 }

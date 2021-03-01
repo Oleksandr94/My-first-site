@@ -78,6 +78,7 @@ body {
 .header__link:focus,
 .header__link:active {
   opacity: 1;
+  color: #000000;
 }
 /* Header style and */
 

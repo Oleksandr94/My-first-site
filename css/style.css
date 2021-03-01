@@ -144,6 +144,7 @@ body {
   line-height: 30px;
   text-align: center;
   color: #7d7987;
+  margin-top: 33px;
 }
 .line {
   background: #000000;
@@ -164,6 +165,7 @@ body {
   grid-template-columns: repeat(3, 1fr);
   grid-column-gap: 35px;
   grid-column: span 1;
+  margin-top: 80px;
 }
 
 .services__card {

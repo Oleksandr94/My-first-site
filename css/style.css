@@ -221,4 +221,35 @@ body {
   font-size: 36px;
   line-height: 56px;
   max-width: 481px;
+  margin-top: 33px;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 56px;
+}
+
+.line__healthcare {
+  width: 56px;
+  height: 2px;
+  background: #000000;
+  border-radius: 10px;
+  margin-top: 26px;
+}
+
+.healthcare__title {
+  font-weight: 290;
+  font-size: 18px;
+  line-height: 30px;
+  color: #7d7987;
+  margin-top: 31px;
+}
+
+.healthcare__learnmore {
+  width: 200px;
+  border-radius: 55px;
+  font-size: 18px;
+  line-height: 60px;
+  color: #458ff6;
+  border: 1.4px solid;
+  background: white;
+  margin-top: 37px;
 }

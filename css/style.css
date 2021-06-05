@@ -278,4 +278,18 @@ body {
   text-align: left;
 }
 
+.download_sabmit {
+  width: 200px;
+  border-radius: 55px;
+  font-size: 18px;
+  line-height: 60px;
+  color: #458ff6;
+  border: 1.4px solid;
+  background: white;
+  margin-top: 40px;
+}
 /* Download our  and */
+
+.customer__our {
+  margin-top: 266px;
+}

@@ -256,3 +256,26 @@ body {
   background: white;
   margin-top: 37px;
 }
+
+/* Download our */
+
+.download__our {
+  padding-top: 229px;
+}
+
+.mobile__apps {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 48px;
+}
+
+.download__title {
+  font-weight: 290;
+  color: #7d7987;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: left;
+}
+
+/* Download our  and */
